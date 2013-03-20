@@ -1,21 +1,17 @@
-# Template Puppet Module for Boxen
+# MR
 
-An example of how we write Puppet modules for Boxen. Replace this
-paragraph with a short explanation of what the heck makes your module
-useful.
+MR is a tool to manage Multiple Repositories at the same time.
+More details at http://joeyh.name/code/mr/
 
 ## Usage
 
 ```puppet
-boxen::example { 'best example ever':
-  salutation => 'fam'
-}
+include mr
 ```
 
 ## Required Puppet Modules
 
 * `boxen`
-* `anything-else`
 
 ## Development
 
