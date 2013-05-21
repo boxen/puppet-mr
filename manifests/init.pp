@@ -3,7 +3,6 @@
 # Usage:
 #
 #     include mr
-
 class mr {
   include homebrew
   include homebrew::config
