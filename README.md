@@ -1,5 +1,7 @@
 # MR
 
+[![Build Status](https://travis-ci.org/boxen/puppet-mr.png)](https://travis-ci.org/boxen/puppet-mr)
+
 MR is a tool to manage Multiple Repositories at the same time.
 More details at http://joeyh.name/code/mr/
 
