@@ -11,10 +11,5 @@ describe 'mr' do
     should include_class('homebrew')
     should include_class('boxen::config')
     should contain_class('mr')
-
-    should contain_homebrew__formula('mr').with(
-      :before => 'Package[boxen/brews/mr]'
-    )
-    should contain_package('boxen/brews/mr')
-  end
+    should contain_package('mr')
 end
