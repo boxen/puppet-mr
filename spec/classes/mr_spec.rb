@@ -12,4 +12,5 @@ describe 'mr' do
     should include_class('boxen::config')
     should contain_class('mr')
     should contain_package('mr')
+  end
 end
